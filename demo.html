@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+		<head>
+    <meta charset="UTF-8">
+		<title>jQuery Directional Hover</title>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="dist/jquery.directional-hover.min.js"></script>
+		<link rel="stylesheet" href="dist/jquery.directional-hover.min.css">
+		<style>
+body {
+  background-color: yellow;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.dh-container {
+  border: 5px solid brown;
+  margin: 15px;
+  width: 400px;
+  height: 400px;
+  background: black;
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  color: #8B0000;
+}
+
+#nakov{
+  background-image: url(nakov.jpg);
+  background-size: 100%;
+}
+
+#angel {
+  background-image: url(angel.jpg);
+  background-size: 100%;
+}
+
+#bogomil {
+  background-image: url(bogomil.jpg);
+  background-size: 100%;
+}
+
+#preslav {
+  background-image: url(preslav.jpg);
+  background-size: 100%;
+}
+
+#ivan {
+  background-image: url(ivan.jpg);
+  background-size: 100%;
+}
+
+#niki {
+  background-image: url(niki.jpg);
+  background-size: 100%;
+}
+
+.dh-overlay {
+  background: rgba(52,73,94,.65);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 300px;
+  color: #8B0000;
+  font-size: 40px;
+  font-style: italic;
+}
+</style>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		</head>
+
+		<body>
+      <div id="wrapper">
+         
+          <h1 style="margin:150px auto 30px auto">Маймунски гурута- стилизация</h1>
+          <div class="dh-container" id="nakov">
+                    <div class="dh-overlay">Nakov e maimuna</div>
+          </div>
+          <div class="dh-container" id="bogomil">
+                    <div class="dh-overlay">Bogomil e maimuna</div>
+           </div>
+          <div class="dh-container" id="angel">
+                    <div class="dh-overlay">Angel e maimuna</div>
+          </div>
+          <div class="dh-container" id="preslav">
+                    <div class="dh-overlay">Preslav e maimuna</div>
+          </div>
+          <div class="dh-container" id="ivan">
+                    <div class="dh-overlay">Ivan e maimuna</div>
+           </div>
+          <div class="dh-container" id="niki">
+                    <div class="dh-overlay">Niki e maimuna</div>
+          </div>
+      </div>
+<script>
+			$(window).load(function() {
+				$('.dh-container').directionalHover();
+			});
+		</script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
