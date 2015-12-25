@@ -1,0 +1,72 @@
+body {
+  background-color: yellow;
+}
+main {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.dh-container {
+  border: 5px solid brown;
+  margin: 15px;
+  width: 400px;
+  height: 400px;
+  background: black;
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+  font-style: italic;
+  color: #8B0000;
+}
+
+#nakov{
+  background-image: url(../images/nakov.jpg);
+  background-size: 100%;
+}
+
+#angel {
+  background-image: url(../images/angel.jpg);
+  background-size: 100%;
+}
+
+#bogomil {
+  background-image: url(../images/bogomil.jpg);
+  background-size: 100%;
+}
+
+#preslav {
+  background-image: url(../images/preslav.jpg);
+  background-size: 100%;
+}
+
+#ivan {
+  background-image: url(../images/ivan.jpg);
+  background-size: 100%;
+}
+
+#niki {
+  background-image: url(../images/niki.jpg);
+  background-size: 100%;
+}
+
+.dh-container{
+  position:relative;overflow:hidden
+  }
+  .dh-overlay{
+    position:absolute;top:-100%
+  }
+
+.dh-overlay {
+  background: rgba(52,73,94,.65);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+  color: #8B0000;
+  font-size: 2.3em;
+  font-style: italic;
+}
+
