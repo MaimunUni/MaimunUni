@@ -1,13 +1,13 @@
 @font-face{
-	font-family:"maimun";
+	font-family: Maimun;
 	src:url('fonts/teslics_document_cyr_normal.ttf');
 }
 @font-face{
-	font-family:"dsdown";
+	font-family:dsdown;
 	src:url('fonts/dsdown.ttf');
 }
-body{
-	font-family:"maimun", "dsdown", Helvetica, sans-serif;
+#wrapper{
+	font-family:Maimun, dsdown, Helvetica, sans-serif;
 	font-size:18px;
 	
 }
@@ -18,16 +18,16 @@ header{
 	height:80px;
 	display:flex;
 }
-header div a > img{
+header > div > a > img{
     height:60px;
 	margin:10px;
 	margin-top:10px;
 	vertical-align:top;
 }
-header div div.name{
+header > div > .name{
 	width:200px;
 }
-header div div.name > button{
+header > div > div.name > button{
 	width: 120px;
 	background-color:#460700;
 	color:#fff;
@@ -35,7 +35,7 @@ header div div.name > button{
 	border-radius: 10px;
 	border:none;
 }
-header div div.name > p{
+header > div > div.name > p{
 	width:120px;
 	text-transform:uppercase;
 	line-height:17px;
@@ -43,7 +43,7 @@ header div div.name > p{
 	margin-top:10px;
 	
 }
-header nav{
+header > nav{
 	display:flex;
 	justify-content: flex-end;
 	margin-top:30px;
@@ -52,8 +52,8 @@ header nav ul li{
 	display:inline-block;
 	font-size:0.8em;
 }
-header nav ul li a{
-	font-family:"maimun", "dsdown", Helvetica, sans-serif;
+header > nav > ul > li > a{
+	font-family:Maimun;
 	color:#460700;
 }
 
@@ -66,8 +66,8 @@ header div a img{
 }
 
 /* Main */
-main{
-	background-image: url('images/jungle.jpg') -10 -10;
+.main{
+	background-image: url('images/jungle.jpg');
 	width:100%;
 	height: 300px;
 }
