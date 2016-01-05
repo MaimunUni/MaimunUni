@@ -21,26 +21,32 @@
 
 header{
 	background-color:#FFCB3F;
-	height:80px;
+	height:100px;
 	display: flex;
-	
 }
-header > div > a > img{
-    height:60px;
+
+header div a img{
+    height:80px;
 	margin:10px;
-	margin-top:10px;
-	vertical-align:top;
+}
+#logo{
+	display:flex;
+	justify-content: flex-start;
+	width: 25%;
 }
 header > div > .name{
-	width:200px;
+	margin-top:10px;
 }
 header > div > div.name > button{
-	width: 120px;
+	width: 130px;
+	height: 25px;
 	background-color:#460700;
 	color:#fff;
-	font-size:0.7em;
+	font-size:0.6em;
 	border-radius: 10px;
 	border:none;
+	margin-top:5px;
+	font-family:Maimun, dsdown, Helvetica, sans-serif;
 }
 header > div > div.name > p{
 	width:120px;
@@ -53,54 +59,185 @@ header > div > div.name > p{
 header > nav{
 	display:flex;
 	justify-content: flex-end;
-	margin-top:30px;
+	margin-top:40px;
+	width: 70%;
 }
 header nav ul li{
 	display:inline-block;
 	font-size:0.8em;
+	
 }
 header > nav > ul > li > a{
 	font-family:Maimun;
 	color:#460700;
 	background-color: #FFCB3F;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin:5px;
+	padding:5px;
+}
+header > nav > ul > li > a > span{
+	font-size:1.5em;
+	text-transform:none;
 }
 
-header > nav > ul > li:hover{
-	background-color: orange;
+header > nav > ul > li a:hover{
+	background-color: #F9AD1F;
+	border-radius:15px;
+	
 }
-
-header div {
-	display:inline-block;
+header > nav > a > img{
+	width:30px;
+	margin-left:10px;
 }
-header div a img{
-    height:60px;
-	margin:10px;
-}
-
 /* Main */
 .main{
 	background-image: url('images/jungle.jpg');
 	width: 100%;
-	height: 38em;
+	height: 500px;
+	background-size: cover;
+}
+/* .main:hover{
+	background-color: rgba(255,203,63,0.5);
+	width: 100%;
+	height: 500px;
+} */
+.main div{
+	
+}
+main div p{
+	color:#fff;
+	font-size:1.5em;
+	width:35%;
+	justify-content:center;
+	line-height:1.8em;	
+	padding-top:180px;
+	margin-left:30%;
+	text-align:center;
 }
 
+main div button{
+	width: 220px;
+	height: 40px;
+	background-color:#460700;
+	color:#fff;
+	font-size:1.1em;
+	border-radius: 20px;
+	border:none;
+	font-family:Maimun, dsdown, Helvetica, sans-serif;
+	margin-top:30px;
+	margin-left:40%;
+}
+main div button:hover{
+	width: 220px;
+	height: 40px;
+	background-color:#4AAD33;
+	color:#fff;
+	font-size:1.1em;
+	border-radius: 20px;
+	border:none;
+	font-family:Maimun, dsdown, Helvetica, sans-serif;
+	
+}
 /* Footer */
 
 footer{
 	background-color:#FFCB3F;
-	
 	display:flex;
 	color:#460700;
-	
 }
 footer ul > li a{
 	font-size:14px;
 	color:#460700;
 	line-height:15px;
-}
-footer li{
 	list-style-type:none;
 }
+footer  > li{
+	list-style-type:none;
+	width:30%;
+	margin: 15px 20px 0px 20px;
+    padding-bottom:15px;	
+}
+/* a{
+	list-style-type:none;
+} */
+
+footer  > li ul.social{
+	margin:5px;
+}
 footer p{
-	font-size:14px;
+	font-size:13px;
+	font-family:Helvetica, sans-serif;
+	width:60%;
+}
+#facebook{
+	height: 40px;
+    width: 40px;
+	background: url("images/mini-social-icons.png") 0 0;
+	display:inline-block;
+	border: 2px solid grey;
+	border-radius: 40px;
+	margin-left:10px;
+}
+	
+#google{
+	height: 40px;
+    width: 40px;
+	background: url("images/mini-social-icons.png") -41px 0;
+	display:inline-block;
+	border: 2px solid grey;
+	border-radius: 40px;
+	margin-left:10px;
+}
+#twitter{
+	height: 40px;
+    width: 40px;
+	background: url("images/mini-social-icons.png") -83px 0;
+	display:inline-block;
+	border: 2px solid grey;
+	border-radius: 40px;
+	margin-left:10px;
+}
+#facebook:hover{
+	height: 40px;
+    width: 40px;
+	background: url("images/mini-social-icons.png") 0 40px;
+	display:inline-block;
+	border: 2px solid grey;
+	border-radius: 40px;
+	margin-left:10px;
+}
+#google:hover{
+	height: 40px;
+    width: 40px;
+	background: url("images/mini-social-icons.png") -42px 40px;
+	display:inline-block;
+	border: 2px solid grey;
+	border-radius: 40px;
+	margin-left:10px;
+}
+#twitter:hover{
+	height: 40px;
+    width: 40px;
+	background: url("images/mini-social-icons.png") -85px 40px;
+	display:inline-block;
+	border: 2px solid grey;
+	border-radius: 40px;
+	margin-left:10px;
+}
+
+
+
+@media all and (max-width: 960px){
+	header > nav{
+		justify-content: space-around;
+	}
+	
+	
+}
+
+@media all and (max-width: 600px){
+	header > nav{
+		flex-direction: column;
+	}
 }
