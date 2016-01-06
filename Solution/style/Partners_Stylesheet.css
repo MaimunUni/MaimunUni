@@ -99,12 +99,77 @@ header > nav > a > img{
 }
 /* Main */
 .main{
-	width: 100%;
+	width: 50%;
 	min-height: 500px;
+	margin:15px auto;
 	background-size: cover;
+}
+ul.friends{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	
+	
+}
+ul.friends li{
+	margin-top:15px;
+	margin-left:15px;
+}
+div.profil > p{
+	width:72%;
+	text-align:center;
+	line-height:1.5em;
+	color:#460700;
+	margin:0px;
+}
+
+.trainer-img {
+	height: 130px;
+    width: 130px;
+	display:inline-block;
+	border: 2px solid grey;
+	border-radius: 80px;
+	margin-left:5px;
+}
+
+.trainer-img:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+#giraff{
+	background: url("images/giraff.png") no-repeat;
+	background-size: 187px 177px;
+	background-position: -27px 3px;
+}
+
+#penguin{
+	background: url("images/penguin.png") no-repeat;
+	background-size: 122px 104px;
+	background-position: 3px 10px;
+}
+#Tiger{
+	background: url("images/Tiger.jpg");
+	background-size: 274px 199px;
+	background-position: -32px -32px;
+}
+#flamingo{
+	background: url("images/flamingo.jpg") no-repeat;
+	background-size: 75px 130px;
+	background-position: 31px 10px;
+}
+#peacock{
+	background: url("images/Peacock.jpg") no-repeat;
+	background-size: 110px 110px;
+	background-position: 14px 10px;
+}
+#elephant{
+	background: url("images/Elephant.jpg") no-repeat;
+	background-size: 110px 110px;
+	background-position: 14px 10px;
 }
 
 /* Footer */
+
 
 footer{
 	background-color:#FFCB3F;
@@ -250,7 +315,9 @@ footer div > p{
 	}
 
 	header > div > div.name > a {
-		margin: 0 auto;
+		margin: 10px auto;
+		font-size:0.7em;
+	
 	}
 	
     footer {
