@@ -2,12 +2,7 @@
 	font-family: Maimun;
 	src: url('fonts/teslics-document-cyr-normal_2.ttf');
 }
-/*@font-face {
-    font-family: Maimun;
-    font-style: normal;
-    font-weight: 400;
-    src: url(http://allfont.ru/cache/fonts/teslics-document-cyr-normal_a01682b1db21e69ff470a9f76d6575c5.ttf) format('truetype');
-}*/
+
 @font-face{
 	font-family:dsdown;
 	src:url('fonts/dsdown.ttf');
@@ -101,7 +96,6 @@ header > nav > a > img{
 .main{
 	width: 100%;
 	min-height: 500px;
-	
 }
 
 /* Footer */
