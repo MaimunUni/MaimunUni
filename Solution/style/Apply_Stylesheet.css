@@ -87,3 +87,15 @@ a {
 a:hover {
 	background-color: #31A831;
 }
+
+@media all and (max-width: 700px){
+	#forms {
+		margin-left: 5%;
+	}
+}
+
+@media all and (max-width: 600px){
+	#forms {
+		margin-left: 0;
+	}
+}
