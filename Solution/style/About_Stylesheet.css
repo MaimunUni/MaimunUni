@@ -112,7 +112,6 @@ header > nav > a > img{
     line-height: 24px;
     position: fixed;
     color: #FFFFFF;
-    user-select: none;
     z-index: 1000;
 }
 

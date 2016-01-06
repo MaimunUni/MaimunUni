@@ -1,8 +1,6 @@
 body {
 	background: url("images/form-background.jpeg");
-	background-color: red;
-	background-size: scale;
-	background-repeat: none;
+	background-color: #18991B;
 }
 
 #wrapper {
@@ -86,4 +84,16 @@ a {
 
 a:hover {
 	background-color: #31A831;
+}
+
+@media all and (max-width: 700px){
+	#forms {
+		margin-left: 5%;
+	}
+}
+
+@media all and (max-width: 600px){
+	#forms {
+		margin-left: 0;
+	}
 }
