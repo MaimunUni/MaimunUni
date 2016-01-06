@@ -39,7 +39,8 @@ header div a img{
 header > div > .name{
 	margin-top:10px;
 }
-header > div > div.name > button{
+header > div > div.name > a{
+	text-decoration: none;
 	width: 130px;
 	height: 25px;
 	background-color:#460700;
@@ -47,10 +48,10 @@ header > div > div.name > button{
 	font-size:0.6em;
 	border-radius: 10px;
 	border:none;
-	margin-top:5px;
+	padding: 4px 15px;
 	font-family:Maimun, dsdown, Helvetica, sans-serif;
 }
-header > div > div.name > button:hover{
+header > div > div.name > a:hover{
 	background-color:#4AAD33;
 }
 header > div > div.name > p{
@@ -100,7 +101,7 @@ header > nav > a > img{
 /* Main */
 .main{
 	width: 100%;
-	min-height: 530px;
+	min-height: 500px;
 	
 }
 
