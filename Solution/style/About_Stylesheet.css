@@ -186,18 +186,18 @@ footer ul > li a{
 	margin:7px 0px;
 	padding:3px;
 }
-footer ul.footer-list > li a:hover{
+.footer-list > li a:hover{
 	background-color: #F9AD1F;
 	border-radius:15px;
 }
-footer  > li{
+footer  > ul{
 	list-style-type:none;
 	width:30%;
 	margin: 15px 20px 0px 20px;
     padding-bottom:15px;	
 }
 
-footer  > li ul.social{
+ul.social{
 	margin:5px;
 }
 footer div > p{
@@ -265,7 +265,7 @@ footer div > p{
 	margin:5px 0px;
 	}
 	
-	footer  > li ul.social{
+	.social{
 	margin:5px 0px;
     }
     
@@ -324,7 +324,7 @@ footer div > p{
 	    width:100%;
 		margin:0px;
 }
-    footer  > li{
+    footer  > ul{
 		padding-top:15px;
 		margin:0 auto;
 		width:100%;
