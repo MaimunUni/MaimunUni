@@ -108,11 +108,9 @@ ul.guru{
 	display: flex;
 	justify-content:center;
 	flex-wrap: wrap;
-	
-	
 }
 ul.guru li{
-	margin-top:15px;
+	padding:30px;
 }
 div.profil > p{
 	width:72%;

@@ -108,12 +108,9 @@ ul.friends{
 	display: flex;
 	justify-content:center;
 	flex-wrap: wrap;
-	
-	
 }
 ul.friends li{
-	margin-top:15px;
-	margin-left:15px;
+	padding:30px;
 }
 div.profil > p{
 	width:72%;
