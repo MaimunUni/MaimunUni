@@ -144,7 +144,8 @@ div.profil > p{
 #bogomil{
 	background: url("images/bogomil2-01.png");
 	background-size: 130px 130px;
-}#angel{
+}
+#angel{
 	background: url("images/angel2-01.png");
 	background-size: 130px 130px;
 }
@@ -166,6 +167,7 @@ footer{
 	background-color:#FFCB3F;
 	display:flex;
 	color:#460700;
+	font-family:Maimun, dsdown, Helvetica, sans-serif;
 }
 footer ul > li a{
 	font-size:14px;
