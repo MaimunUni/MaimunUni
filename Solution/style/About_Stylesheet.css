@@ -12,6 +12,7 @@
 	font-family:dsdown;
 	src:url('fonts/dsdown.ttf');
 }
+
 #wrapper{
 	font-family:Maimun, dsdown, Helvetica, sans-serif;
 	font-size:18px;
@@ -100,7 +101,21 @@ header > nav > a > img{
 .main{
 	width: 100%;
 	height: 500px;
-	background-size: cover;
+	
+}
+
+.snowflake {
+    padding-left: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
 }
 
 /* Footer */

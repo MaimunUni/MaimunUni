@@ -120,66 +120,44 @@ div.profil > p{
 	color:#460700;
 	margin:0px;
 }
-#nakov{
+
+.trainer-img {
 	height: 130px;
     width: 130px;
-	background: url("images/nakov2.jpg");
-	background-size: 210px 210px;
-	background-position: -30px -41px;
 	display:inline-block;
 	border: 2px solid grey;
 	border-radius: 80px;
 	margin-left:5px;
 }
 
+.trainer-img:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+#nakov{
+	background: url("images/nakov2.jpg");
+	background-size: 210px 210px;
+	background-position: -30px -41px;
+}
+
 #bogomil{
-	height: 130px;
-    width: 130px;
 	background: url("images/bogomil2-01.png");
 	background-size: 130px 130px;
-	display:inline-block;
-	border: 2px solid grey;
-	border-radius: 80px;
-	margin-left:5px;
 }#angel{
-	height: 130px;
-    width: 130px;
 	background: url("images/angel2-01.png");
 	background-size: 130px 130px;
-	display:inline-block;
-	border: 2px solid grey;
-	border-radius: 80px;
-	margin-left:5px;
 }
 #bankin{
-	height: 130px;
-    width: 130px;
 	background: url("images/niki2-01.png");
 	background-size: 130px 130px;
-	display:inline-block;
-	border: 2px solid grey;
-	border-radius: 80px;
-	margin-left:5px;
 }
 #ivan{
-	height: 130px;
-    width: 130px;
 	background: url("images/ivan2-01.png");
 	background-size: 130px 130px;
-	display:inline-block;
-	border: 2px solid grey;
-	border-radius: 80px;
-	margin-left:5px;
 }
 #preslav{
-	height: 130px;
-    width: 130px;
 	background: url("images/preslav2-01.png");
 	background-size: 130px 130px;
-	display:inline-block;
-	border: 2px solid grey;
-	border-radius: 80px;
-	margin-left:5px;
 }
 /* Footer */
 
