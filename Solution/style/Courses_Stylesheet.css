@@ -233,6 +233,30 @@ footer div > p{
     header > nav > ul > li > a{
 	margin:5px 0px;
 	}
+
+	.course > img {
+		height: 80%;
+	}
+	
+	
+	footer  > li ul.social{
+	margin:5px 0px;
+    }
+    
+    #facebook,#google,#twitter{
+		margin-left:0px;
+	} 
+}
+
+@media all and (max-width: 700px){
+
+    header > nav > ul > li > a{
+	margin:5px 0px;
+	}
+
+	.course > img {
+		height: 60%;
+	}
 	
 	footer  > li ul.social{
 	margin:5px 0px;
@@ -283,9 +307,11 @@ footer div > p{
 		width:20%;
 		margin:0 auto;
 	}
+
+	header > div > div.name > a {
+		margin: 0 auto;
+	}
 	
-
-
     footer {
         display:block;
 	    width:100%;
